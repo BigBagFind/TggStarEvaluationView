@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086CBF1A1D39FF0600326A8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF191D39FF0600326A8A /* main.m */; };
+		086CBF1D1D39FF0600326A8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF1C1D39FF0600326A8A /* AppDelegate.m */; };
+		086CBF201D39FF0600326A8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF1F1D39FF0600326A8A /* ViewController.m */; };
+		086CBF231D39FF0600326A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF211D39FF0600326A8A /* Main.storyboard */; };
+		086CBF251D39FF0600326A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF241D39FF0600326A8A /* Assets.xcassets */; };
+		086CBF281D39FF0600326A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF261D39FF0600326A8A /* LaunchScreen.storyboard */; };
+		086CBF331D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF321D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m */; };
+		086CBF3E1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF3D1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m */; };
+		086CBF551D39FF3C00326A8A /* star_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4D1D39FF3C00326A8A /* star_nor.png */; };
+		086CBF561D39FF3C00326A8A /* star_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */; };
+		086CBF571D39FF3C00326A8A /* star_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */; };
+		086CBF581D39FF3C00326A8A /* star_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF501D39FF3C00326A8A /* star_sel.png */; };
+		086CBF591D39FF3C00326A8A /* star_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF511D39FF3C00326A8A /* star_sel@2x.png */; };
+		086CBF5A1D39FF3C00326A8A /* star_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF521D39FF3C00326A8A /* star_sel@3x.png */; };
+		086CBF5B1D39FF3C00326A8A /* TggStarEvaluationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086CBF2F1D39FF0700326A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086CBF0D1D39FF0600326A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086CBF141D39FF0600326A8A;
+			remoteInfo = TggStarEvaluationViewDemo;
+		};
+		086CBF3A1D39FF0700326A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086CBF0D1D39FF0600326A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086CBF141D39FF0600326A8A;
+			remoteInfo = TggStarEvaluationViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086CBF151D39FF0600326A8A /* TggStarEvaluationViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TggStarEvaluationViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CBF191D39FF0600326A8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		086CBF1B1D39FF0600326A8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		086CBF1C1D39FF0600326A8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		086CBF1E1D39FF0600326A8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		086CBF1F1D39FF0600326A8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		086CBF221D39FF0600326A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		086CBF241D39FF0600326A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086CBF271D39FF0600326A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		086CBF291D39FF0600326A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086CBF2E1D39FF0700326A8A /* TggStarEvaluationViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TggStarEvaluationViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CBF321D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TggStarEvaluationViewDemoTests.m; sourceTree = "<group>"; };
+		086CBF341D39FF0700326A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086CBF391D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TggStarEvaluationViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CBF3D1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TggStarEvaluationViewDemoUITests.m; sourceTree = "<group>"; };
+		086CBF3F1D39FF0700326A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086CBF4D1D39FF3C00326A8A /* star_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_nor.png; sourceTree = "<group>"; };
+		086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@2x.png"; sourceTree = "<group>"; };
+		086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@3x.png"; sourceTree = "<group>"; };
+		086CBF501D39FF3C00326A8A /* star_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_sel.png; sourceTree = "<group>"; };
+		086CBF511D39FF3C00326A8A /* star_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@2x.png"; sourceTree = "<group>"; };
+		086CBF521D39FF3C00326A8A /* star_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@3x.png"; sourceTree = "<group>"; };
+		086CBF531D39FF3C00326A8A /* TggStarEvaluationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TggStarEvaluationView.h; path = SupportingFile/TggStarEvaluationView.h; sourceTree = "<group>"; };
+		086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TggStarEvaluationView.m; path = SupportingFile/TggStarEvaluationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086CBF121D39FF0600326A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF2B1D39FF0700326A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF361D39FF0700326A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086CBF0C1D39FF0600326A8A = {
+			isa = PBXGroup;
+			children = (
+				086CBF171D39FF0600326A8A /* TggStarEvaluationViewDemo */,
+				086CBF311D39FF0700326A8A /* TggStarEvaluationViewDemoTests */,
+				086CBF3C1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests */,
+				086CBF161D39FF0600326A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086CBF161D39FF0600326A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF151D39FF0600326A8A /* TggStarEvaluationViewDemo.app */,
+				086CBF2E1D39FF0700326A8A /* TggStarEvaluationViewDemoTests.xctest */,
+				086CBF391D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086CBF171D39FF0600326A8A /* TggStarEvaluationViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF4B1D39FF3C00326A8A /* TggStarEvaluationView */,
+				086CBF1B1D39FF0600326A8A /* AppDelegate.h */,
+				086CBF1C1D39FF0600326A8A /* AppDelegate.m */,
+				086CBF1E1D39FF0600326A8A /* ViewController.h */,
+				086CBF1F1D39FF0600326A8A /* ViewController.m */,
+				086CBF211D39FF0600326A8A /* Main.storyboard */,
+				086CBF241D39FF0600326A8A /* Assets.xcassets */,
+				086CBF261D39FF0600326A8A /* LaunchScreen.storyboard */,
+				086CBF291D39FF0600326A8A /* Info.plist */,
+				086CBF181D39FF0600326A8A /* Supporting Files */,
+			);
+			path = TggStarEvaluationViewDemo;
+			sourceTree = "<group>";
+		};
+		086CBF181D39FF0600326A8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF191D39FF0600326A8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		086CBF311D39FF0700326A8A /* TggStarEvaluationViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF321D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m */,
+				086CBF341D39FF0700326A8A /* Info.plist */,
+			);
+			path = TggStarEvaluationViewDemoTests;
+			sourceTree = "<group>";
+		};
+		086CBF3C1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF3D1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m */,
+				086CBF3F1D39FF0700326A8A /* Info.plist */,
+			);
+			path = TggStarEvaluationViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		086CBF4B1D39FF3C00326A8A /* TggStarEvaluationView */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF531D39FF3C00326A8A /* TggStarEvaluationView.h */,
+				086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */,
+				086CBF4C1D39FF3C00326A8A /* SupportingFile */,
+			);
+			path = TggStarEvaluationView;
+			sourceTree = "<group>";
+		};
+		086CBF4C1D39FF3C00326A8A /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				086CBF4D1D39FF3C00326A8A /* star_nor.png */,
+				086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */,
+				086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */,
+				086CBF501D39FF3C00326A8A /* star_sel.png */,
+				086CBF511D39FF3C00326A8A /* star_sel@2x.png */,
+				086CBF521D39FF3C00326A8A /* star_sel@3x.png */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086CBF141D39FF0600326A8A /* TggStarEvaluationViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CBF421D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemo" */;
+			buildPhases = (
+				086CBF111D39FF0600326A8A /* Sources */,
+				086CBF121D39FF0600326A8A /* Frameworks */,
+				086CBF131D39FF0600326A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TggStarEvaluationViewDemo;
+			productName = TggStarEvaluationViewDemo;
+			productReference = 086CBF151D39FF0600326A8A /* TggStarEvaluationViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		086CBF2D1D39FF0700326A8A /* TggStarEvaluationViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CBF451D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoTests" */;
+			buildPhases = (
+				086CBF2A1D39FF0700326A8A /* Sources */,
+				086CBF2B1D39FF0700326A8A /* Frameworks */,
+				086CBF2C1D39FF0700326A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086CBF301D39FF0700326A8A /* PBXTargetDependency */,
+			);
+			name = TggStarEvaluationViewDemoTests;
+			productName = TggStarEvaluationViewDemoTests;
+			productReference = 086CBF2E1D39FF0700326A8A /* TggStarEvaluationViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		086CBF381D39FF0700326A8A /* TggStarEvaluationViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CBF481D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoUITests" */;
+			buildPhases = (
+				086CBF351D39FF0700326A8A /* Sources */,
+				086CBF361D39FF0700326A8A /* Frameworks */,
+				086CBF371D39FF0700326A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086CBF3B1D39FF0700326A8A /* PBXTargetDependency */,
+			);
+			name = TggStarEvaluationViewDemoUITests;
+			productName = TggStarEvaluationViewDemoUITests;
+			productReference = 086CBF391D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086CBF0D1D39FF0600326A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "铁拳科技";
+				TargetAttributes = {
+					086CBF141D39FF0600326A8A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					086CBF2D1D39FF0700326A8A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 086CBF141D39FF0600326A8A;
+					};
+					086CBF381D39FF0700326A8A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 086CBF141D39FF0600326A8A;
+					};
+				};
+			};
+			buildConfigurationList = 086CBF101D39FF0600326A8A /* Build configuration list for PBXProject "TggStarEvaluationViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086CBF0C1D39FF0600326A8A;
+			productRefGroup = 086CBF161D39FF0600326A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086CBF141D39FF0600326A8A /* TggStarEvaluationViewDemo */,
+				086CBF2D1D39FF0700326A8A /* TggStarEvaluationViewDemoTests */,
+				086CBF381D39FF0700326A8A /* TggStarEvaluationViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086CBF131D39FF0600326A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CBF581D39FF3C00326A8A /* star_sel.png in Resources */,
+				086CBF591D39FF3C00326A8A /* star_sel@2x.png in Resources */,
+				086CBF281D39FF0600326A8A /* LaunchScreen.storyboard in Resources */,
+				086CBF571D39FF3C00326A8A /* star_nor@3x.png in Resources */,
+				086CBF5A1D39FF3C00326A8A /* star_sel@3x.png in Resources */,
+				086CBF251D39FF0600326A8A /* Assets.xcassets in Resources */,
+				086CBF561D39FF3C00326A8A /* star_nor@2x.png in Resources */,
+				086CBF231D39FF0600326A8A /* Main.storyboard in Resources */,
+				086CBF551D39FF3C00326A8A /* star_nor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF2C1D39FF0700326A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF371D39FF0700326A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086CBF111D39FF0600326A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CBF201D39FF0600326A8A /* ViewController.m in Sources */,
+				086CBF5B1D39FF3C00326A8A /* TggStarEvaluationView.m in Sources */,
+				086CBF1D1D39FF0600326A8A /* AppDelegate.m in Sources */,
+				086CBF1A1D39FF0600326A8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF2A1D39FF0700326A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CBF331D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CBF351D39FF0700326A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CBF3E1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086CBF301D39FF0700326A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086CBF141D39FF0600326A8A /* TggStarEvaluationViewDemo */;
+			targetProxy = 086CBF2F1D39FF0700326A8A /* PBXContainerItemProxy */;
+		};
+		086CBF3B1D39FF0700326A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086CBF141D39FF0600326A8A /* TggStarEvaluationViewDemo */;
+			targetProxy = 086CBF3A1D39FF0700326A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		086CBF211D39FF0600326A8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086CBF221D39FF0600326A8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		086CBF261D39FF0600326A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086CBF271D39FF0600326A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086CBF401D39FF0700326A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086CBF411D39FF0700326A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086CBF431D39FF0700326A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TggStarEvaluationViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		086CBF441D39FF0700326A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TggStarEvaluationViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		086CBF461D39FF0700326A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TggStarEvaluationViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TggStarEvaluationViewDemo.app/TggStarEvaluationViewDemo";
+			};
+			name = Debug;
+		};
+		086CBF471D39FF0700326A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TggStarEvaluationViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TggStarEvaluationViewDemo.app/TggStarEvaluationViewDemo";
+			};
+			name = Release;
+		};
+		086CBF491D39FF0700326A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TggStarEvaluationViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TggStarEvaluationViewDemo;
+			};
+			name = Debug;
+		};
+		086CBF4A1D39FF0700326A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TggStarEvaluationViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.TggStarEvaluationViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TggStarEvaluationViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086CBF101D39FF0600326A8A /* Build configuration list for PBXProject "TggStarEvaluationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CBF401D39FF0700326A8A /* Debug */,
+				086CBF411D39FF0700326A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086CBF421D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CBF431D39FF0700326A8A /* Debug */,
+				086CBF441D39FF0700326A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		086CBF451D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CBF461D39FF0700326A8A /* Debug */,
+				086CBF471D39FF0700326A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		086CBF481D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CBF491D39FF0700326A8A /* Debug */,
+				086CBF4A1D39FF0700326A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086CBF0D1D39FF0600326A8A /* Project object */;
+}
