@@ -8,14 +8,13 @@
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
-    self.tggStarEvaView = [TggStarEvaluationView evaluationViewWithEvaluateViewDidChooseStarBlock:^(NSUInteger count) {
-        NSLog(@"\n\n给了铁哥哥：%ld星好评！！!\n\n",count);
-        // 在这里作出点评后的处理，count为星星数量
-        weakSelf.resultLabel.text = [NSString stringWithFormat:@"给了铁哥哥%ld个星星的好评！！！",count];
+    self.tggStarEvaView = [TggStarEvaluationView evaluationViewWithChooseStarBlock:^(NSUInteger count) {
+        // 做评星后点处理
+        [weakSelf something];
     }];
     self.tggStarEvaView.frame = (CGRect){self.view.frame.size.width / 2 - 23 * 5,280,23 * 10,45};
     [self.view addSubview:self.tggStarEvaView];
-     // 这个用来调整星星之间的间距,默认0.5,范围为0～1
+    // 设置星星点间隙，默认不设0.5 ，范围为0 ～ 1
     //self.tggStarEvaView.spacing = 0.1;
 
 ## 效果gif如下，请等待加载👇👇👇
