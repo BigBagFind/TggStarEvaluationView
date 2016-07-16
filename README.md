@@ -2,8 +2,9 @@
 
 ### 特别简单一个一个星星评价图，5星好评，顺便可以调整下星星的间距！
 ### 使用方法:
-## 1.import "TggStarEvaluationView"
-## 2.复制下面的代码
+## 1.自己看Demo
+## 2.0.import "TggStarEvaluationView"
+## 2.1.复制下面的代码
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
