@@ -27,7 +27,7 @@
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
-    self.tggStarEvaView = [TggStarEvaluationView evaluationViewWithEvaluateViewDidChooseStarBlock:^(NSUInteger count) {
+    self.tggStarEvaView = [TggStarEvaluationView evaluationViewWithChooseStarBlock:^(NSUInteger count) {
         NSLog(@"\n\n给了铁哥哥：%ld星好评！！!\n\n",count);
         weakSelf.resultLabel.text = [NSString stringWithFormat:@"给了铁哥哥%ld个星星的好评！！！",count];
     }];

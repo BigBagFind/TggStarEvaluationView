@@ -14,7 +14,7 @@
 /*
  *@pramas  evaluateViewDidChooseStarBlock 点击评价之后回调的星星数量
  */
-+ (instancetype)evaluationViewWithEvaluateViewDidChooseStarBlock:(void(^)(NSUInteger count))evaluateViewDidChooseStarBlock;
++ (instancetype)evaluationViewWithChooseStarBlock:(void(^)(NSUInteger count))evaluateViewChoosedStarBlock;
 
 
 /*

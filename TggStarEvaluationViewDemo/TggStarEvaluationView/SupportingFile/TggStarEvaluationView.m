@@ -12,7 +12,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 @interface TggStarEvaluationView ()
 
 @property (assign ,nonatomic)   NSUInteger index;
-@property (copy ,nonatomic)     EvaluateViewDidChooseStar evaluateViewDidChooseStar;
+@property (copy ,nonatomic)     EvaluateViewDidChooseStar evaluateViewChooseStarBlock;
 
 @end
 
@@ -20,11 +20,11 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 @implementation TggStarEvaluationView
 
 /**************初始化TggEvaluationView*************/
-+ (instancetype)evaluationViewWithEvaluateViewDidChooseStarBlock:(void(^)(NSUInteger count))evaluateViewDidChooseStarBlock{
++ (instancetype)evaluationViewWithChooseStarBlock:(void(^)(NSUInteger count))evaluateViewChoosedStarBlock{
     TggStarEvaluationView *evaluationView = [[TggStarEvaluationView alloc]init];
     evaluationView.backgroundColor = [UIColor clearColor];
-    evaluationView.evaluateViewDidChooseStar = ^(NSUInteger count){
-        evaluateViewDidChooseStarBlock(count);
+    evaluationView.evaluateViewChooseStarBlock = ^(NSUInteger count){
+        evaluateViewChoosedStarBlock(count);
     };
     return evaluationView;
 }
@@ -101,8 +101,8 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
         self.index --;
     }
     [self setNeedsDisplay];
-    if (self.evaluateViewDidChooseStar) {
-        self.evaluateViewDidChooseStar(self.index);
+    if (self.evaluateViewChooseStarBlock) {
+        self.evaluateViewChooseStarBlock(self.index);
     }
 }
 
