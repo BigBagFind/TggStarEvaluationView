@@ -1,12 +1,11 @@
-##  TggStarEvaluationView 5星评价视图，你可以随便给出星星评价，指哪打哪。
-
-### 功能：
-##  1.用于5星手动点击评价
-##  2.用于5星评价展示
-### 使用方法:
-## 1.自己看Demo
-## 2.0.import "TggStarEvaluationView"
-## 2.1.复制下面的代码
+#  TggStarEvaluationView 5星评价视图，你可以随便给出星星评价，指哪打哪。
+## 功能：
+###  1.用于5星手动点击评价
+###  2.用于5星评价展示
+## 使用方法:
+### 1.自己看Demo
+### 2.0.import "TggStarEvaluationView"
+### 2.1.复制下面的代码
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
