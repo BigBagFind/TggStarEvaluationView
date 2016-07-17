@@ -31,9 +31,18 @@
         NSLog(@"\n\n给了铁哥哥：%ld星好评！！!\n\n",count);
         weakSelf.resultLabel.text = [NSString stringWithFormat:@"给了铁哥哥%ld个星星的好评！！！",count];
     }];
-    self.tggStarEvaView.frame = (CGRect){self.view.frame.size.width / 2 - 23 * 5,280,23 * 10,45};
+    self.tggStarEvaView.frame = (CGRect){self.view.frame.size.width / 2 - 23 * 5,320,23 * 10,45};
     [self.view addSubview:self.tggStarEvaView];
-    self.tggStarEvaView.spacing = 0.1;
+    
+    // 设置展示的星星数量
+    // self.tggStarEvaView.starCount = 3;
+    
+    // 星星之间的间距，默认0.5
+    // self.tggStarEvaView.spacing = 0.5;
+    
+    // 星星的点击事件使能,默认YES
+    // self.tggStarEvaView.tapEnabled = NO;
+    
 }
 
 
@@ -46,6 +55,15 @@
 }
 
 
+- (IBAction)segControlValueChanged:(UISegmentedControl *)sender {
+    NSUInteger index = sender.selectedSegmentIndex;
+    self.tggStarEvaView.starCount = ++index;
+}
+
+
+- (IBAction)switchValueChanged:(UISwitch *)sender {
+    self.tggStarEvaView.tapEnabled = sender.on;
+}
 
 
 @end

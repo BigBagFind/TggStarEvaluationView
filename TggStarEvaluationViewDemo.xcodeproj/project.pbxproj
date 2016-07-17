@@ -15,13 +15,13 @@
 		086CBF281D39FF0600326A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF261D39FF0600326A8A /* LaunchScreen.storyboard */; };
 		086CBF331D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF321D39FF0700326A8A /* TggStarEvaluationViewDemoTests.m */; };
 		086CBF3E1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF3D1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m */; };
-		086CBF551D39FF3C00326A8A /* star_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4D1D39FF3C00326A8A /* star_nor.png */; };
-		086CBF561D39FF3C00326A8A /* star_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */; };
-		086CBF571D39FF3C00326A8A /* star_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */; };
-		086CBF581D39FF3C00326A8A /* star_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF501D39FF3C00326A8A /* star_sel.png */; };
-		086CBF591D39FF3C00326A8A /* star_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF511D39FF3C00326A8A /* star_sel@2x.png */; };
-		086CBF5A1D39FF3C00326A8A /* star_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CBF521D39FF3C00326A8A /* star_sel@3x.png */; };
-		086CBF5B1D39FF3C00326A8A /* TggStarEvaluationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */; };
+		08859CCD1D3A73170016E408 /* star_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CC51D3A73170016E408 /* star_nor.png */; };
+		08859CCE1D3A73170016E408 /* star_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CC61D3A73170016E408 /* star_nor@2x.png */; };
+		08859CCF1D3A73170016E408 /* star_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CC71D3A73170016E408 /* star_nor@3x.png */; };
+		08859CD01D3A73170016E408 /* star_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CC81D3A73170016E408 /* star_sel.png */; };
+		08859CD11D3A73170016E408 /* star_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CC91D3A73170016E408 /* star_sel@2x.png */; };
+		08859CD21D3A73170016E408 /* star_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08859CCA1D3A73170016E408 /* star_sel@3x.png */; };
+		08859CD31D3A73170016E408 /* TggStarEvaluationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08859CCC1D3A73170016E408 /* TggStarEvaluationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +58,14 @@
 		086CBF391D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TggStarEvaluationViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		086CBF3D1D39FF0700326A8A /* TggStarEvaluationViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TggStarEvaluationViewDemoUITests.m; sourceTree = "<group>"; };
 		086CBF3F1D39FF0700326A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		086CBF4D1D39FF3C00326A8A /* star_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_nor.png; sourceTree = "<group>"; };
-		086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@2x.png"; sourceTree = "<group>"; };
-		086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@3x.png"; sourceTree = "<group>"; };
-		086CBF501D39FF3C00326A8A /* star_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_sel.png; sourceTree = "<group>"; };
-		086CBF511D39FF3C00326A8A /* star_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@2x.png"; sourceTree = "<group>"; };
-		086CBF521D39FF3C00326A8A /* star_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@3x.png"; sourceTree = "<group>"; };
-		086CBF531D39FF3C00326A8A /* TggStarEvaluationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TggStarEvaluationView.h; path = SupportingFile/TggStarEvaluationView.h; sourceTree = "<group>"; };
-		086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TggStarEvaluationView.m; path = SupportingFile/TggStarEvaluationView.m; sourceTree = "<group>"; };
+		08859CC51D3A73170016E408 /* star_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_nor.png; sourceTree = "<group>"; };
+		08859CC61D3A73170016E408 /* star_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@2x.png"; sourceTree = "<group>"; };
+		08859CC71D3A73170016E408 /* star_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nor@3x.png"; sourceTree = "<group>"; };
+		08859CC81D3A73170016E408 /* star_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_sel.png; sourceTree = "<group>"; };
+		08859CC91D3A73170016E408 /* star_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@2x.png"; sourceTree = "<group>"; };
+		08859CCA1D3A73170016E408 /* star_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_sel@3x.png"; sourceTree = "<group>"; };
+		08859CCB1D3A73170016E408 /* TggStarEvaluationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggStarEvaluationView.h; sourceTree = "<group>"; };
+		08859CCC1D3A73170016E408 /* TggStarEvaluationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggStarEvaluationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		086CBF171D39FF0600326A8A /* TggStarEvaluationViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				086CBF4B1D39FF3C00326A8A /* TggStarEvaluationView */,
+				08859CC31D3A73170016E408 /* TggStarEvaluationView */,
 				086CBF1B1D39FF0600326A8A /* AppDelegate.h */,
 				086CBF1C1D39FF0600326A8A /* AppDelegate.m */,
 				086CBF1E1D39FF0600326A8A /* ViewController.h */,
@@ -156,25 +156,25 @@
 			path = TggStarEvaluationViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		086CBF4B1D39FF3C00326A8A /* TggStarEvaluationView */ = {
+		08859CC31D3A73170016E408 /* TggStarEvaluationView */ = {
 			isa = PBXGroup;
 			children = (
-				086CBF531D39FF3C00326A8A /* TggStarEvaluationView.h */,
-				086CBF541D39FF3C00326A8A /* TggStarEvaluationView.m */,
-				086CBF4C1D39FF3C00326A8A /* SupportingFile */,
+				08859CC41D3A73170016E408 /* SupportingFile */,
+				08859CCB1D3A73170016E408 /* TggStarEvaluationView.h */,
+				08859CCC1D3A73170016E408 /* TggStarEvaluationView.m */,
 			);
 			path = TggStarEvaluationView;
 			sourceTree = "<group>";
 		};
-		086CBF4C1D39FF3C00326A8A /* SupportingFile */ = {
+		08859CC41D3A73170016E408 /* SupportingFile */ = {
 			isa = PBXGroup;
 			children = (
-				086CBF4D1D39FF3C00326A8A /* star_nor.png */,
-				086CBF4E1D39FF3C00326A8A /* star_nor@2x.png */,
-				086CBF4F1D39FF3C00326A8A /* star_nor@3x.png */,
-				086CBF501D39FF3C00326A8A /* star_sel.png */,
-				086CBF511D39FF3C00326A8A /* star_sel@2x.png */,
-				086CBF521D39FF3C00326A8A /* star_sel@3x.png */,
+				08859CC51D3A73170016E408 /* star_nor.png */,
+				08859CC61D3A73170016E408 /* star_nor@2x.png */,
+				08859CC71D3A73170016E408 /* star_nor@3x.png */,
+				08859CC81D3A73170016E408 /* star_sel.png */,
+				08859CC91D3A73170016E408 /* star_sel@2x.png */,
+				08859CCA1D3A73170016E408 /* star_sel@3x.png */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -282,15 +282,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086CBF581D39FF3C00326A8A /* star_sel.png in Resources */,
-				086CBF591D39FF3C00326A8A /* star_sel@2x.png in Resources */,
+				08859CD01D3A73170016E408 /* star_sel.png in Resources */,
+				08859CD11D3A73170016E408 /* star_sel@2x.png in Resources */,
 				086CBF281D39FF0600326A8A /* LaunchScreen.storyboard in Resources */,
-				086CBF571D39FF3C00326A8A /* star_nor@3x.png in Resources */,
-				086CBF5A1D39FF3C00326A8A /* star_sel@3x.png in Resources */,
+				08859CCF1D3A73170016E408 /* star_nor@3x.png in Resources */,
+				08859CD21D3A73170016E408 /* star_sel@3x.png in Resources */,
 				086CBF251D39FF0600326A8A /* Assets.xcassets in Resources */,
-				086CBF561D39FF3C00326A8A /* star_nor@2x.png in Resources */,
+				08859CCE1D3A73170016E408 /* star_nor@2x.png in Resources */,
 				086CBF231D39FF0600326A8A /* Main.storyboard in Resources */,
-				086CBF551D39FF3C00326A8A /* star_nor.png in Resources */,
+				08859CCD1D3A73170016E408 /* star_nor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086CBF201D39FF0600326A8A /* ViewController.m in Sources */,
-				086CBF5B1D39FF3C00326A8A /* TggStarEvaluationView.m in Sources */,
+				08859CD31D3A73170016E408 /* TggStarEvaluationView.m in Sources */,
 				086CBF1D1D39FF0600326A8A /* AppDelegate.m in Sources */,
 				086CBF1A1D39FF0600326A8A /* main.m in Sources */,
 			);
@@ -544,6 +544,7 @@
 				086CBF441D39FF0700326A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		086CBF451D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				086CBF471D39FF0700326A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		086CBF481D39FF0700326A8A /* Build configuration list for PBXNativeTarget "TggStarEvaluationViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +562,7 @@
 				086CBF4A1D39FF0700326A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

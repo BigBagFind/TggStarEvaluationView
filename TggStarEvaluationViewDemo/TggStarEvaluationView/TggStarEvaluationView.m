@@ -29,6 +29,28 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
     return evaluationView;
 }
 
+- (void)setStarCount:(NSUInteger)starCount{
+    if (starCount == 0) {
+        return;
+    }
+    if (_starCount != starCount) {
+        _starCount = starCount;
+        if (starCount > 5) {
+            starCount = 5;
+        }
+        self.index = starCount;
+        [self setNeedsDisplay];
+        if (self.evaluateViewChooseStarBlock) {
+            self.evaluateViewChooseStarBlock(self.index);
+        }
+    }
+}
+
+
+- (void)setTapEnabled:(BOOL)tapEnabled{
+    _tapEnabled = tapEnabled;
+    self.userInteractionEnabled = tapEnabled;
+}
 
 - (void)setSpacing:(CGFloat)spacing{
     if (_spacing != spacing) {
