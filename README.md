@@ -26,7 +26,7 @@
     // self.tggStarEvaView.tapEnabled = NO;
 
 ## 效果gif如下，请等待加载👇👇👇
-![image](https://raw.githubusercontent.com/BigBagFind/TggStarEvaluationViewDemo/master/ScreenShots/tggStarEvaMovie.gif)
+![image](https://github.com/BigBagFind/TggStarEvaluationViewDemo/raw/master/ScreenShots/starViewAnimation.gif)
 
 
     
