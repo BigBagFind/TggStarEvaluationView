@@ -3,8 +3,8 @@
 ###  1.用于5星手动点击评价
 ###  2.用于5星评价展示
 ## 如何添加到工程
-### 1. pod 'TggStarEvaluationViewDemoD', :git => 'https://github.com/BigBagFind/TggStarEvaluationViewDemo.git'
-### 2. 直接把TggStarEvaluationView文件夹拖进去
+#### 1. pod 'TggStarEvaluationViewDemoD', :git => 'https://github.com/BigBagFind/TggStarEvaluationViewDemo.git'
+#### 2. 直接把TggStarEvaluationView文件夹拖进去
 ## 使用方法:
 ### 1.自己看Demo
 ### 2.0.import "TggStarEvaluationView"
