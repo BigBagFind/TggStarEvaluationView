@@ -20,16 +20,16 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 @implementation TggStarEvaluationView
 
 /**************初始化TggEvaluationView*************/
-+ (instancetype)evaluationViewWithChooseStarBlock:(void(^)(NSUInteger count))evaluateViewChoosedStarBlock{
-    TggStarEvaluationView *evaluationView = [[TggStarEvaluationView alloc]init];
++ (instancetype)evaluationViewWithChooseStarBlock:(void(^)(NSUInteger count))evaluateViewChoosedStarBlock {
+    TggStarEvaluationView *evaluationView = [[TggStarEvaluationView alloc] init];
     evaluationView.backgroundColor = [UIColor clearColor];
-    evaluationView.evaluateViewChooseStarBlock = ^(NSUInteger count){
+    evaluationView.evaluateViewChooseStarBlock = ^(NSUInteger count) {
         evaluateViewChoosedStarBlock(count);
     };
     return evaluationView;
 }
 
-- (void)setStarCount:(NSUInteger)starCount{
+- (void)setStarCount:(NSUInteger)starCount {
     if (starCount == 0) {
         return;
     }
@@ -47,12 +47,12 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 }
 
 
-- (void)setTapEnabled:(BOOL)tapEnabled{
+- (void)setTapEnabled:(BOOL)tapEnabled {
     _tapEnabled = tapEnabled;
     self.userInteractionEnabled = tapEnabled;
 }
 
-- (void)setSpacing:(CGFloat)spacing{
+- (void)setSpacing:(CGFloat)spacing {
     if (_spacing != spacing) {
         _spacing = spacing;
         [self setNeedsDisplay];
@@ -60,7 +60,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 }
 
 /**************重写*************/
-- (void)drawRect:(CGRect)rect{
+- (void)drawRect:(CGRect)rect {
     UIImage *norImage = [UIImage imageNamed:@"star_nor"];
     UIImage *selImage = [UIImage imageNamed:@"star_sel"];
     // 图片没间隙自己画
@@ -85,7 +85,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
         UIImage *drawImage;
         if (i < self.index) {
             drawImage = selImage;
-        }else{
+        } else {
             drawImage = norImage;
         }
         [self drawImage:context CGImageRef:drawImage.CGImage CGRect:CGRectMake((i == 0)?spacing:2 * i *spacing + spacing + starWidth * i, top, starWidth, starWidth)];
@@ -98,7 +98,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 /**************将坐标翻转画图*************/
 - (void)drawImage:(CGContextRef)context
        CGImageRef:(CGImageRef)image
-           CGRect:(CGRect) rect{
+           CGRect:(CGRect) rect {
         CGContextSaveGState(context);
     
         CGContextTranslateCTM(context, rect.origin.x, rect.origin.y);
@@ -111,11 +111,11 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 }
 
 /**************捕捉触摸*************/
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
 }
 
-- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
     self.index = point.x / (self.frame.size.width / 5) + 1;
@@ -128,7 +128,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
     }
 }
 
-- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self touchesEnded:touches withEvent:event];
 }
 
