@@ -1,7 +1,7 @@
-#  TggStarEvaluationView 星星评价视图，指哪打哪。(如果对你有一点点的帮助，那就来个Star吧)
-##[迅速使用一步上手](http://www.jianshu.com/p/f05a08b6b612)
-##[查看代码简单思路和解析](http://www.jianshu.com/p/f05a08b6b612)
-##[本篇相关文章](http://www.jianshu.com/p/f05a08b6b612)
+##  TggStarEvaluationView 星星评价视图，指哪打哪。(如果对你有一点点的帮助，那就来个Star吧)
+###[迅速使用一步上手](http://www.jianshu.com/p/f05a08b6b612)
+###[查看代码简单思路和解析](http://www.jianshu.com/p/f05a08b6b612)
+###[本篇相关文章](http://www.jianshu.com/p/f05a08b6b612)
 ## 功能：
 ###  1.用于5星手动点击评价
 ###  2.用于5星评价展示
