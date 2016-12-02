@@ -1,16 +1,17 @@
-##  TggStarEvaluationView 星星评价视图，指哪打哪。(如果对你有一点点的帮助，那就来个Star吧)
-###[迅速使用一步上手](http://www.jianshu.com/p/f05a08b6b612)
-###[查看代码简单思路和解析](http://www.jianshu.com/p/f05a08b6b612)
-###[本篇相关文章](http://www.jianshu.com/p/f05a08b6b612)
-## 功能：
-###  1.用于5星手动点击评价
-###  2.用于5星评价展示
-## 如何添加到工程
-### 1. 直接把TggStarEvaluationView文件夹拖进去
-## 使用方法:
-### 1.自己看Demo
-### 2.0.import "TggStarEvaluationView"
-### 2.1.复制下面的代码
+####  TggStarEvaluationView 星星评价视图，指哪打哪。(如果对你有一点点的帮助，那就来个Star吧)
+####[迅速使用一步上手](http://www.jianshu.com/p/f05a08b6b612)
+####[查看代码简单思路和解析](http://www.jianshu.com/p/f05a08b6b612)
+####[本篇相关文章](http://www.jianshu.com/p/f05a08b6b612)
+##### 功能：
+####  1.用于5星手动点击评价
+####  2.用于5星评价展示
+##### 如何添加到工程
+#### 1. 直接把TggStarEvaluationView文件夹拖进去
+#### 2. 把空的星星icon和实心星星icon各一张（本Demo有提供，如果你自己有的话就用自己的，名字改下）
+##### 使用方法:
+#### 1.自己看Demo
+#### 2.0.import "TggStarEvaluationView"
+#### 2.1.复制下面的代码
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
@@ -30,7 +31,7 @@
     // 星星的点击事件使能,默认YES
     // self.tggStarEvaView.tapEnabled = NO;
 
-## 效果gif如下，请等待加载👇👇👇
+#### 效果gif如下，请等待加载👇👇👇
 ![image](https://github.com/BigBagFind/TggStarEvaluationViewDemo/raw/master/ScreenShots/starViewAnimation.gif)
 
 
