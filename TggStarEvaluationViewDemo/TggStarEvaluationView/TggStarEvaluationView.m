@@ -8,11 +8,11 @@
 
 #import "TggStarEvaluationView.h"
 
-typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
+typedef void(^EvaluateViewDidChooseStarBlock)(NSUInteger count);
 @interface TggStarEvaluationView ()
 
-@property (assign ,nonatomic)   NSUInteger index;
-@property (copy ,nonatomic)     EvaluateViewDidChooseStar evaluateViewChooseStarBlock;
+@property (nonatomic, assign)   NSUInteger index;
+@property (nonatomic, copy)     EvaluateViewDidChooseStarBlock evaluateViewChooseStarBlock;
 
 @end
 
@@ -24,10 +24,16 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
     TggStarEvaluationView *evaluationView = [[TggStarEvaluationView alloc] init];
     evaluationView.backgroundColor = [UIColor clearColor];
     evaluationView.evaluateViewChooseStarBlock = ^(NSUInteger count) {
-        evaluateViewChoosedStarBlock(count);
+        if (evaluateViewChoosedStarBlock) {
+            evaluateViewChoosedStarBlock(count);
+        }
     };
     return evaluationView;
 }
+
+
+
+#pragma mark - AccessorMethod
 
 - (void)setStarCount:(NSUInteger)starCount {
     if (starCount == 0) {
@@ -59,6 +65,10 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
     }
 }
 
+
+
+#pragma mark - DrawStarsMethod
+
 /**************重写*************/
 - (void)drawRect:(CGRect)rect {
     UIImage *norImage = [UIImage imageNamed:@"star_nor"];
@@ -82,14 +92,8 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
     }
     // 画图
     for (NSInteger i = 0; i < 5; i ++) {
-        UIImage *drawImage;
-        if (i < self.index) {
-            drawImage = selImage;
-        } else {
-            drawImage = norImage;
-        }
-        [self drawImage:context CGImageRef:drawImage.CGImage CGRect:CGRectMake((i == 0)?spacing:2 * i *spacing + spacing + starWidth * i, top, starWidth, starWidth)];
-        //NSLog(@"left:%lf\nwidth:%lf",2 * i *spacing + spacing + starWidth * i,starWidth);
+        UIImage *drawImage = i < self.index ? selImage : norImage;
+        [self drawImage:context CGImageRef:drawImage.CGImage CGRect:CGRectMake((i == 0) ? spacing : 2 * i * spacing + spacing + starWidth * i, top, starWidth, starWidth)];
     }
     // 瞬间画满,需要图片有间隙
     //CGContextDrawTiledImage(context, CGRectMake(0, 0, 30, 30), image.CGImage);
@@ -98,7 +102,7 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
 /**************将坐标翻转画图*************/
 - (void)drawImage:(CGContextRef)context
        CGImageRef:(CGImageRef)image
-           CGRect:(CGRect) rect {
+           CGRect:(CGRect)rect {
         CGContextSaveGState(context);
     
         CGContextTranslateCTM(context, rect.origin.x, rect.origin.y);
@@ -110,7 +114,9 @@ typedef void(^EvaluateViewDidChooseStar)(NSUInteger count);
         CGContextRestoreGState(context);
 }
 
-/**************捕捉触摸*************/
+
+#pragma mark - TouchGestureMethod
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
 }

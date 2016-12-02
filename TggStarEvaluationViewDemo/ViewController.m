@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     // 注意weakSelf
     __weak __typeof(self)weakSelf = self;
     // 初始化
@@ -42,6 +42,11 @@
     
     // 星星的点击事件使能,默认YES
     // self.tggStarEvaView.tapEnabled = NO;
+    
+    // 下面这个不带回调，就不会打印了
+    TggStarEvaluationView *tggStarEvaView1 = [TggStarEvaluationView evaluationViewWithChooseStarBlock:nil];
+    tggStarEvaView1.frame = (CGRect){self.view.frame.size.width / 2 - 23 * 5,320 + 50,23 * 10,45};
+    [self.view addSubview:tggStarEvaView1];
     
 }
 

@@ -7,7 +7,7 @@
 ####  2.用于5星评价展示
 ##### 如何添加到工程
 #### 1. 直接把TggStarEvaluationView文件夹拖进去
-#### 2. 把空的星星icon和实心星星icon各一张（本Demo有提供，如果你自己有的话就用自己的，名字改下）
+#### 2. 文件夹里面SupportingFile附带空的星星icon和实心星星icon各一张（如果你自己需要用自己样式的星星，那么拉进来后，名字改成和原来那个一样的就好了）
 ##### 使用方法:
 #### 1.自己看Demo
 #### 2.0.import "TggStarEvaluationView"
